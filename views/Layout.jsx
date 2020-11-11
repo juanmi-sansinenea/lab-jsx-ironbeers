@@ -17,11 +17,7 @@ function Layout(props) {
         </nav>
         {/* This is the only page that will have full html setup */}
 
-        {/* 
-        	Here you should add { props.children }
-        	to enable showing other components/views 
-        	withing the Layout
-        */}
+        { props.children }
 
       </body>
     </html>
